@@ -50,3 +50,10 @@ Scale from Zero to Millions Of Users
 	- Geo DNS
 - Message Queue
 - Logging, Metrices, Automation
+	- Using Message Queues
+- DB Scaling
+	- Vertical vs Horizontal
+	- Challenges
+		- Resharding
+		- Celebrity Problem
+		- Join and Denormalization
