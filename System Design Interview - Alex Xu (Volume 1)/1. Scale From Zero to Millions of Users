@@ -1,0 +1,52 @@
+Scale from Zero to Millions Of Users
+
+- Single Server Setup
+- Database
+	- Relational
+		- MySQL, PostgreSQL, Oracle DB
+		- Rows and Tables
+		- JOINs
+		- ACID Transactions
+	- Non Relational
+		- Categories
+			- Key Value : Dynamo DB
+			- Document : CouchDb
+			- Column Stores : Cassandra(Wide Column), Hbase(On Hadoop HDFS)
+			- Graph : Neo4J
+		- Joins not supported
+		- Super Low Latency
+		- For Massive Data
+- Verical Scaling vs Horizontal Scaling
+- Load balancer
+	- Comm with webserver with private ips
+-DB Replication
+	- Advantages
+		- Reliability
+		- Performance
+		- High Availability
+- Cache
+	- Caching Strategies
+		- Write Through (All separately)
+		- Write Back (Write Behind) (Batched)
+		- Write Around
+		- Cached Aside
+		- Read Through
+	- To Take Care of 
+		- When to cache
+		- TTL
+		- Consistency
+		- SPOF
+		- Eviction Policy
+-CDN
+	- Considerations
+		- Cost
+		- TTL
+		- CDN Fallback
+		- Invalidating : Cache Purge and Versioning
+-Stateful vs Stateless
+	- Stickey Sessions
+	- Effect : Simple, Robust, Scalable
+- Data Centres
+	- Geo DNS
+- Message Queue
+- Logging, Metrices, Automation
