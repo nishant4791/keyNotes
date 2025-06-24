@@ -1,0 +1,48 @@
+Chapter 1 : Reliable, Scalable and Maintainable Applications
+
+- Biggest Problem : Data
+- Break System into Small tasks, use tools, Stitch with application code
+- Reliability
+	- Faults and Failures
+	- Fault tolerant and Resilient
+	- Types
+		- H/w
+		- S/w : Avoid By
+			- Testing
+			- Process Isolation
+			- Process to crash and restart : ex Chaos Monkey
+			- Measuring
+			- Monitoring
+			- Analysing in Prod
+		- Human Errors
+- Scalability
+	- Load Params
+		- RPS
+		- Read:Write in DB
+		- Active Users in Chat Room
+		- Hit Rate in Cache
+	- Track performance on Load increase
+		- Response Time
+		- Latency
+		- Tail Latencies
+- Maintainability
+	- Operability 
+		- Health Monitoring
+		- Documentation
+		- S/w Up to date
+		- Security
+	- Simplicity
+		- Good Abstractions
+		- Accidental complexity
+	- Evolvability
+		- Easier to modify
+-Non Functinal requirements of a system
+	- Scalability
+	- Availability
+	- Consistency
+	- Reliability
+	- Durability
+	- Security
+	- Compliance
+	- Compatibitly
+	- Maintainibility
